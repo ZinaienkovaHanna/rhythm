@@ -1,0 +1,32 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:regular,500,600,&display=swap);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+  }
+  ul,
+  ol,
+  li {
+    list-style: none;
+  }
+
+:root {
+    --text-color: #666666;
+    --h2-text-color: #121212;
+    --button: #ff6428;
+    --button-text-color: #fff;
+    --button-hover: #ba4619;
+    scroll-behavior: smooth;
+    font-family: CalSans;
+}
+
+
+img {
+    display: block;
+    width: 100%;
+}

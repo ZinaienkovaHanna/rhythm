@@ -1,0 +1,26 @@
+.header__container {
+    display: flex;
+    min-height: 100px;
+    align-items: center;
+}
+.nav__menu {
+    flex: 1 1 auto;
+}
+.menu {
+   display: flex;
+   justify-content: flex-end; 
+}
+nav ul {
+    display: flex;
+}
+nav li {
+    margin: 0px 50px 0px 50px;
+}
+.nav__link {
+    cursor: pointer;
+    color: var(--text-color);
+}
+.nav__link:hover {
+    /* щоб лінк підкреслювався при наведенні */
+    text-decoration: underline;
+  }

@@ -1,0 +1,33 @@
+/* #hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+    margin-top: 50px;
+} */
+/* #hero > h2 {
+    margin-bottom: 20px;
+    word-wrap: break-word;
+} */
+/* #hero {
+    display: flex;  
+}  */
+.hero__container {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   
+} 
+h2 {
+    display: block;
+    font-weight: bold;
+}
+form {
+    display: block;
+    padding-top: 15px;
+}
+.hero__button {
+    margin-top: 15px;
+}

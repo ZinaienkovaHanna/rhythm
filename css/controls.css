@@ -1,0 +1,23 @@
+[class*="__container"] {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    padding: 0px 15px;
+  }
+
+.btn {
+    background-color: var(--button);
+    text-align: center;
+    padding: 10px 40px;
+    border-radius: 40px;
+    border: var(--button);
+    color: #fff;
+    font-weight: 600;
+    line-height: 28px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    /* щоб кнопка при наведенні темнішала */
+    background-color: var(--button-hover);
+  }
