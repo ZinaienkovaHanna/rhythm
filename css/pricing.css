@@ -12,9 +12,6 @@
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
     text-align: center;
     padding: 30px;
-    
-    
-    
 }
 .container__card:hover {
     background-color: var(--background-color-card);

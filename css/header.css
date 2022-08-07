@@ -14,13 +14,21 @@ nav ul {
     display: flex;
 }
 nav li {
-    margin: 0px 50px 0px 50px;
+    margin: 0px 30px 0px 30px;
 }
 .nav__link {
     cursor: pointer;
-    color: var(--text-color);
 }
-.nav__link:hover {
+nav a {
+    color: var(--h2-text-color);
+}
+nav a:visited {
+    color: var(--h2-text-color);
+}
+nav a:hover {
+    color: var(--button);
+}
+nav a:hover {
     /* щоб лінк підкреслювався при наведенні */
     text-decoration: underline;
   }

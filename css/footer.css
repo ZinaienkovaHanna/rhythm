@@ -1,0 +1,37 @@
+footer ul {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 30px;
+}
+footer {
+    background-color: var(--background-color-card);
+    
+}
+.footer__container {
+    height: 150px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    
+}
+footer li {
+    margin: 0px 15px 0px 15px;
+}
+
+span {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 15px;
+}
+footer a {
+    color: var(--h2-text-color);
+}
+footer a:visited {
+    color: var(--h2-text-color);
+}
+footer a:hover {
+    color: var(--button);
+}
+footer a:hover {
+    /* щоб лінк підкреслювався при наведенні */
+    text-decoration: underline;
+  }
