@@ -21,6 +21,9 @@ a {
     --button: #ff6428;
     --button-text-color: #fff;
     --button-hover: #ba4619;
+    --background-color: #121212;
+    --background-color-icon: #262626;
+    --background-color-card: rgba(0, 0, 0, 0.1);
     scroll-behavior: smooth;
     font-family: CalSans;
 }

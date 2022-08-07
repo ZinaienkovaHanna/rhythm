@@ -1,9 +1,9 @@
 #how-it-works {
     margin-top: 50px;
-    
+    text-align: center;  
 }
 
 iframe {
-   width: 100%;
+    width: 100%;
     max-width: 560px; 
 }
